@@ -1,8 +1,8 @@
-from flask import Flask
+from flask import Flask, render_template
 from listas import *
 
-
 app = Flask(__name__)
+
 
 @app.route('/')
 def index():
@@ -16,29 +16,23 @@ def index():
         '''
     return f'{h1} {ol}'
 
+
 @app.route('/marketplace')
 def marketplace():
-    l=marketpalce_lista
-    h1 = '<h1> Marketpalce </h1>'
-    voltar = "<a href='/'>Voltar</a>"
+    l1 = marketpalce_lista
+    return render_template('index.html', list_header="Lojas", lista=l1, cam='/categorias', titulo='Lojas')
 
-    return f'{h1} {l}\n <br/> {voltar}'
 
 @app.route('/categorias')
 def categoria():
-    l=categoria_lista
-    h1 = '<h1> Categorias </h1>'
-    voltar = "<a href='/'>Voltar</a>"
+    l2 = categoria_lista
+    return render_template('index.html', list_header="Categorias", lista=l2, cam='/subcategorias', titulo='Categorias')
 
-    return f'{h1} {l}\n <br/> {voltar}'
 
 @app.route('/subcategorias')
 def sub_categoria():
-    l=subcategoria_lista
-    h1 = '<h1> Subcategorias </h1>'
-    voltar = "<a href='/'>Voltar</a>"
-
-    return f'{h1} {l}\n <br/> {voltar}'
+    l3 = subcategoria_lista
+    return render_template('index.html', list_header="Subcategorias", lista=l3, cam='/', titulo='Subcategorias')
 
 
 app.run()
