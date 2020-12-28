@@ -11,7 +11,7 @@ def lista_txt(cam: str) -> list:
 
     arquivo.close()
     cam_aux = cam.split('/')
-    dado_aux = f'{cam_aux[1]} acessado em :{datetime.now().strftime("%c")}'
+    dado_aux = f'{cam_aux[1]} acessado em :{datetime.now().strftime("%b %d %Y %H:%M:%S")}'
     grava_txt('txt/log_acesso.txt', dado_aux, 'a')
 
     return list_aux

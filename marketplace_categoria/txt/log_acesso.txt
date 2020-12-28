@@ -1,2 +1,5 @@
-marketplace.txt acessado em :Mon Dec 28 18:23:15 2020
-marketplace.txt acessado em :Mon Dec 28 18:23:17 2020
+marketplace.txt acessado em :Dec 28 2020 19:29:40
+marketplace.txt acessado em :Dec 28 2020 19:29:42
+categorias.txt acessado em :Dec 28 2020 19:29:45
+subcategorias.txt acessado em :Dec 28 2020 19:29:47
+subcategorias.txt acessado em :Dec 28 2020 19:29:50
