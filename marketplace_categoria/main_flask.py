@@ -1,6 +1,5 @@
 from flask import Flask, render_template
-from listas import *
-
+from arquivos import *
 app = Flask(__name__)
 
 
@@ -19,19 +18,19 @@ def index():
 
 @app.route('/marketplace')
 def marketplace():
-    l1 = marketpalce_lista
+    l1 = lista_txt('txt/marketplace.txt')
     return render_template('index.html', list_header="Lojas", lista=l1, cam='/categorias', titulo='Lojas')
 
 
 @app.route('/categorias')
 def categoria():
-    l2 = categoria_lista
+    l2 = lista_txt('txt/categorias.txt')
     return render_template('index.html', list_header="Categorias", lista=l2, cam='/subcategorias', titulo='Categorias')
 
 
 @app.route('/subcategorias')
 def sub_categoria():
-    l3 = subcategoria_lista
+    l3 = lista_txt('txt/subcategorias.txt')
     return render_template('index.html', list_header="Subcategorias", lista=l3, cam='/', titulo='Subcategorias')
 
 

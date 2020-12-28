@@ -1,4 +1,4 @@
-from listas import *
+from arquivos import grava_txt, lista_txt
 
 
 def menu():
@@ -20,11 +20,12 @@ while True:
 
     op = menu()
     if op == 1:
-        lista_(marketpalce_lista)
+        # grava_txt('txt/marketplace.txt','Cem')
+        lista_(lista_txt('txt/marketplace.txt'))
     elif op == 2:
-        lista_(categoria_lista)
+        lista_(lista_txt('txt/categorias.txt'))
     elif op == 3:
-        lista_(subcategoria_lista)
+        lista_(lista_txt('txt/subcategorias.txt'))
     elif op == 4:
         exit(0)
     else:
