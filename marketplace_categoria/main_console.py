@@ -10,7 +10,7 @@ def menu():
 
 def lista_(itens):
     for i in range(len(itens)):
-        print('{}){}'.format(i+1, itens[i]))
+        print('{}){}'.format(i + 1, itens[i].encode('iso-8859-1').decode('utf-8')))
 
     es = int(input('Selecione uma opção: '))
     return es

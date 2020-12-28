@@ -1,0 +1,4 @@
+Veiculo
+Casa
+Celular
+Roupas
