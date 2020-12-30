@@ -1,8 +1,20 @@
-<h1> {{titulo}} </h1>
-<ol>
-        {% for itens in lista %}
-            <li><a href={{cam}}>{{ itens }}</a></li>
-        {% endfor %}
-    </ol>
+<!--<h1> {{titulo}} </h1>-->
+<!--<ol>-->
+<!--        {% for itens in lista %}-->
+<!--            <li><a href={{cam}}>{{ itens }}</a></li>-->
+<!--        {% endfor %}-->
+<!--    </ol>-->
 
-<h2><a href='/'>Voltar</a> </h2>
+<!--<h2><a href='/'>Voltar</a> </h2>-->
+
+{% extends 'template.html' %}
+{% block corpo %}
+
+<ul>
+    {% for i in lista %}
+    <li>
+        <a href="{{i['rota']}}">{{i['nome']}}</a>
+    </li>
+    {%  endfor %}
+</ul>
+{% endblock %}

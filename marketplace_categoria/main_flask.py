@@ -1,37 +1,50 @@
 from flask import Flask, render_template
 from arquivos import *
+
 app = Flask(__name__)
 
 
 @app.route('/')
 def index():
-    h1 = '<h1> Olist </h1>'
-    ol = '''
-            <ol>
-            <li><a href='/marketplace'>Marketplace</a></li>
-            <li><a href='/categorias'>Categorias</a></li>
-            <li><a href='/subcategorias'>Subcategorias</a></li>
-            </ol>
-        '''
-    return f'{h1} {ol}'
+    markeplace = {'nome': 'Marketplace', 'rota': '/marketplace'}
+    categorias = {'nome': 'Categorias', 'rota': '/categorias'}
+    subcategoria = {'nome': 'Subcategorias', 'rota': '/subcategorias'}
+    lista = [markeplace, categorias, subcategoria]
+
+    return render_template('index.html', nome='Olist', lista=lista)
 
 
 @app.route('/marketplace')
 def marketplace():
-    l1 = lista_txt('txt/marketplace.txt')
-    return render_template('index.html', list_header="Lojas", lista=l1, cam='/categorias', titulo='Lojas')
+    l_aux = lista_txt('txt/marketplace.txt')
+    l_dicionario = []
+
+    for i in l_aux:
+        l_dicionario.append({'nome': i, 'rota': '/categorias'})
+
+    return render_template('index.html', nome="Lojas", lista=l_dicionario)
 
 
 @app.route('/categorias')
 def categoria():
-    l2 = lista_txt('txt/categorias.txt')
-    return render_template('index.html', list_header="Categorias", lista=l2, cam='/subcategorias', titulo='Categorias')
+    l_aux = lista_txt('txt/categorias.txt')
+    l_dicionario = []
+
+    for i in l_aux:
+        l_dicionario.append({'nome': i, 'rota': '/subcategorias'})
+
+    return render_template('index.html', nome="Categorias", lista=l_dicionario)
 
 
 @app.route('/subcategorias')
 def sub_categoria():
-    l3 = lista_txt('txt/subcategorias.txt')
-    return render_template('index.html', list_header="Subcategorias", lista=l3, cam='/', titulo='Subcategorias')
+    l_aux = lista_txt('txt/subcategorias.txt')
+    l_dicionario = []
+
+    for i in l_aux:
+        l_dicionario.append({'nome': i, 'rota': '/'})
+
+    return render_template('index.html', nome="Subcategorias", lista=l_dicionario)
 
 
 app.run()
