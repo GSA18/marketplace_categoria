@@ -1,0 +1,8 @@
+{% extends 'template.html' %}
+{% block corpo %}
+<title>Cadastrar novo Marketplace</title>
+<form action='/cadastrar_marketplace' >
+    <label>Nome :</label> <input type='text' name='novo_nome'/> <br/><br/><br/>
+     <input type='submit' value='Gravar' /> <labe>{{msg_sucesso}}</labe> <br />
+</form>
+{% endblock %}

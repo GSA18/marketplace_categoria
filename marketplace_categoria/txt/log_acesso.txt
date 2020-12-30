@@ -1,75 +1,21 @@
-marketplace.txt acessado em :Dec 28 2020 19:29:40
-marketplace.txt acessado em :Dec 28 2020 19:29:42
-categorias.txt acessado em :Dec 28 2020 19:29:45
-subcategorias.txt acessado em :Dec 28 2020 19:29:47
-subcategorias.txt acessado em :Dec 28 2020 19:29:50
-marketplace.txt acessado em :Dec 29 2020 21:06:23
-categorias.txt acessado em :Dec 29 2020 21:06:27
-subcategorias.txt acessado em :Dec 29 2020 21:06:31
-subcategorias.txt acessado em :Dec 29 2020 21:06:46
-categorias.txt acessado em :Dec 29 2020 21:06:51
-marketplace.txt acessado em :Dec 29 2020 21:06:59
-marketplace.txt acessado em :Dec 29 2020 21:07:31
-marketplace.txt acessado em :Dec 29 2020 21:07:56
-categorias.txt acessado em :Dec 29 2020 21:08:01
-subcategorias.txt acessado em :Dec 29 2020 21:08:04
-marketplace.txt acessado em :Dec 29 2020 21:21:15
-marketplace.txt acessado em :Dec 29 2020 21:35:20
-marketplace.txt acessado em :Dec 29 2020 21:40:13
-marketplace.txt acessado em :Dec 29 2020 21:40:48
-marketplace.txt acessado em :Dec 29 2020 21:41:41
-marketplace.txt acessado em :Dec 29 2020 21:59:43
-marketplace.txt acessado em :Dec 29 2020 22:17:52
-marketplace.txt acessado em :Dec 29 2020 22:21:27
-marketplace.txt acessado em :Dec 29 2020 22:21:54
-marketplace.txt acessado em :Dec 29 2020 22:31:16
-categorias.txt acessado em :Dec 29 2020 22:31:24
-marketplace.txt acessado em :Dec 29 2020 22:37:33
-categorias.txt acessado em :Dec 29 2020 22:37:36
-subcategorias.txt acessado em :Dec 29 2020 22:37:40
-categorias.txt acessado em :Dec 29 2020 22:40:38
-subcategorias.txt acessado em :Dec 29 2020 22:40:39
-subcategorias.txt acessado em :Dec 29 2020 22:40:44
-marketplace.txt acessado em :Dec 29 2020 22:47:59
-marketplace.txt acessado em :Dec 29 2020 22:49:41
-marketplace.txt acessado em :Dec 29 2020 22:51:00
-marketplace.txt acessado em :Dec 29 2020 22:51:58
-marketplace.txt acessado em :Dec 29 2020 22:52:43
-marketplace.txt acessado em :Dec 29 2020 22:53:25
-marketplace.txt acessado em :Dec 29 2020 22:53:49
-marketplace.txt acessado em :Dec 29 2020 22:54:43
-marketplace.txt acessado em :Dec 29 2020 22:55:31
-marketplace.txt acessado em :Dec 29 2020 22:58:28
-marketplace.txt acessado em :Dec 29 2020 22:58:58
-marketplace.txt acessado em :Dec 29 2020 22:59:59
-marketplace.txt acessado em :Dec 29 2020 23:02:49
-marketplace.txt acessado em :Dec 29 2020 23:04:48
-marketplace.txt acessado em :Dec 29 2020 23:07:56
-marketplace.txt acessado em :Dec 29 2020 23:09:51
-categorias.txt acessado em :Dec 29 2020 23:11:50
-marketplace.txt acessado em :Dec 29 2020 23:11:54
-categorias.txt acessado em :Dec 29 2020 23:11:55
-subcategorias.txt acessado em :Dec 29 2020 23:11:57
-subcategorias.txt acessado em :Dec 29 2020 23:13:00
-marketplace.txt acessado em :Dec 29 2020 23:14:12
-marketplace.txt acessado em :Dec 29 2020 23:14:18
-categorias.txt acessado em :Dec 29 2020 23:14:19
-categorias.txt acessado em :Dec 29 2020 23:14:21
-subcategorias.txt acessado em :Dec 29 2020 23:14:23
-categorias.txt acessado em :Dec 29 2020 23:14:30
-marketplace.txt acessado em :Dec 29 2020 23:14:37
-categorias.txt acessado em :Dec 29 2020 23:14:39
-subcategorias.txt acessado em :Dec 29 2020 23:14:41
-marketplace.txt acessado em :Dec 29 2020 23:27:12
-categorias.txt acessado em :Dec 29 2020 23:27:13
-marketplace.txt acessado em :Dec 29 2020 23:33:21
-categorias.txt acessado em :Dec 29 2020 23:33:22
-marketplace.txt acessado em :Dec 29 2020 23:35:25
-categorias.txt acessado em :Dec 29 2020 23:35:26
-subcategorias.txt acessado em :Dec 29 2020 23:35:28
-subcategorias.txt acessado em :Dec 29 2020 23:35:43
-categorias.txt acessado em :Dec 29 2020 23:35:45
-marketplace.txt acessado em :Dec 29 2020 23:44:42
-marketplace.txt acessado em :Dec 30 2020 00:04:40
-categorias.txt acessado em :Dec 30 2020 00:04:42
-subcategorias.txt acessado em :Dec 30 2020 00:04:43
+marketplace.txt acessado em :Dec 30 2020 16:55:21 para mostrar lista.
+categorias.txt acessado em :Dec 30 2020 16:55:24 para mostrar lista.
+marketplace.txt acessado em :Dec 30 2020 17:01:56 para mostrar lista.
+marketplace.txt acessado em :Dec 30 2020 17:02:43 para mostrar lista.
+marketplace.txt acessado em :Dec 30 2020 17:02:50 para mostrar lista.
+marketplace.txt acessado em :Dec 30 2020 17:02:59 para mostrar lista.
+marketplace.txt acessado em: Dec 30 2020 17:03:29 para gravar o dado : Shopee
+marketplace.txt acessado em :Dec 30 2020 17:05:03 para mostrar lista.
+marketplace.txt acessado em: Dec 30 2020 17:05:22 para gravar o dado : FastShop
+marketplace.txt acessado em :Dec 30 2020 17:05:24 para mostrar lista.
+marketplace.txt acessado em: Dec 30 2020 17:11:16 para gravar o dado : Cissa Magazine
+marketplace.txt acessado em :Dec 30 2020 17:11:19 para mostrar lista.
+categorias.txt acessado em :Dec 30 2020 17:11:22 para mostrar lista.
+subcategorias.txt acessado em :Dec 30 2020 17:11:24 para mostrar lista.
+marketplace.txt acessado em: Dec 30 2020 17:13:08 para gravar o dado : Casa do Eletro
+marketplace.txt acessado em :Dec 30 2020 17:13:40 para mostrar lista.
+marketplace.txt acessado em :Dec 30 2020 17:13:47 para mostrar lista.
+categorias.txt acessado em :Dec 30 2020 17:13:50 para mostrar lista.
+subcategorias.txt acessado em :Dec 30 2020 17:13:56 para mostrar lista.
+categorias.txt acessado em :Dec 30 2020 17:14:03 para mostrar lista.
+subcategorias.txt acessado em :Dec 30 2020 17:14:04 para mostrar lista.
