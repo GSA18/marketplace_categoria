@@ -9,6 +9,7 @@ def lista_txt(cam: str) -> list:
         linha = linha.strip()
         list_aux.append(linha.encode('iso-8859-1').decode('utf-8'))
 
+
     arquivo.close()
     cam_aux = cam.split('/')
     dado_aux = f'{cam_aux[1]} acessado em :{datetime.now().strftime("%b %d %Y %H:%M:%S")} para mostrar lista.'
